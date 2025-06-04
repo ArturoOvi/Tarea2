@@ -1,0 +1,48 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 10px;
+  background-color: #111;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  color: cyan;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: row;         /* Distribuye los items horizontalmente */
+  flex-wrap: wrap;             /* Permite que pasen a otra línea si no caben */
+  justify-content: space-around; /* Espacia los items de forma uniforme */
+  align-items: center;         /* Alinea verticalmente */
+  align-content: center;       /* Alinea las filas si hay varias líneas */
+  height: 150px;
+  border: 2px dotted cyan;
+  padding: 10px;
+  gap: 10px;
+}
+
+.item {
+  background-color: #01a5f7;
+  padding: 20px;
+  width: 50px;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.item1 {
+  order: 5;           
+  flex-grow: 3;     
+}
+.item2 {
+  flex-shrink: 8;   
+}
+.item3 {
+  flex-basis: 100px; 
+}
+.item4 {
+  align-self: flex-start;
+}
