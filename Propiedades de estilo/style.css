@@ -1,0 +1,135 @@
+body {
+  font-family: 'Trebuchet MS',sans-serif;
+  margin: 20px;
+  background-color: black;
+  color: white;
+}
+
+h2 {
+  margin-top: 40px;
+  color: #4de02f;
+}
+
+.caja {
+  width: 120px;
+  height: 50px;
+  margin: 10px;
+  padding: 10px;
+  background-color: lightblue;
+  border: 1px solid #000;
+}
+
+.static {
+  position: static;
+}
+
+.relative {
+  position: relative;
+  top: 10px;
+  left: 20px;
+  background-color: lightgreen;
+  color: black;
+}
+
+.absolute {
+  position: absolute;
+  top: 150px;
+  left: 200px;
+  background-color: lightsalmon;
+  color: black;
+}
+
+.fixed {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: rgb(95, 22, 190);
+}
+
+.float {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+  margin-right: 10px;
+  color: black;
+}
+
+.textoflotante {
+  clear: both;
+  background-color: lightgray;
+  padding: 10px;
+  color: black;
+}
+
+.display-block {
+  display: block;
+  background-color: lightgreen;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.display-inline {
+  display: inline;
+  background-color: yellow;
+  padding: 5px;
+  color: black;
+}
+
+.display-none {
+  display: none;
+}
+
+.overflow {
+  width: 200px;
+  height: 50px;
+  border: 2px solid red;
+  overflow: scroll;
+  background-color: #fef2dc;
+  padding: 5px;
+  color: black;
+}
+
+.visible {
+  visibility: visible;
+  background-color: lightblue;
+  padding: 5px;
+  color: black;
+}
+
+.oculto {
+  visibility: hidden;
+  background-color: pink;
+  padding: 5px;
+  color: black;
+}
+
+.z-box {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 1000px;
+  left: 100px;
+  opacity: 0.8;
+  text-align: center;
+  line-height: 100px;
+  color: black;
+}
+
+.fondo {
+  background-color: blue;
+  z-index: 1;
+}
+
+.medio {
+  background-color: green;
+  z-index: 2;
+  left: 120px;
+  color: black;
+}
+
+.frente {
+  background-color: red;
+  z-index: 3;
+  left: 140px;
+}
